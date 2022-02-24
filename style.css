@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.bg{
+	background: url(7.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 120vh;
+}
+.nav_bar{
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	background: pink;	
+}
+.logo{
+	font-family: 'Lobster Two', cursive;
+	font-size: 2.8em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color:deeppink;
+	padding:15px 40px;
+}
+.menu {
+	margin: auto;
+	padding:20px;
+	display: flex;
+	list-style: none;
+}
+.menu li a{
+	padding: 10px 30px;
+	margin: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+a:hover{
+	background: deeppink;
+	border-radius: 5px;
+}
+.main{
+	position: relative;
+	width: 600px;
+	height: 600px;
+}
+.content{
+	position: absolute;
+	top: 30%;
+	left: 150%;
+	width: 600px;
+	height: 500px;
+}
+.content h2{
+	font-family: 'Quintessential', cursive;
+	font-size: 40px;
+	font-weight: 600;
+	color: deeppink;
+}
+.content h4{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: deeppink;
+}
+.category{
+	margin: 0;
+	padding: 5px;
+	background-color: lightpink;
+	font-family: 'Heebo', sans-serif;
+}
+.header1{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 0 550px;
+	color: deeppink;
+}
+.header{
+	text-align: center;
+	font-size: 25px;	
+}
+.price{
+	text-align: center;
+}
+.img{
+	border:1px solid deeppink ;
+	border-radius: 3px;
+}
+.img:hover{
+	opacity: 0.5;
+}
+.cardi{
+	margin: 20px;
+	padding: 20px;
+	background-color: lightpink ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.croptop{
+	margin: 20px;
+	padding: 20px;
+	background-color: lightpink ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.hat{
+	margin: 20px;
+	padding: 20px;
+	background-color: lightpink ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.bag{
+	margin: 20px;
+	padding: 20px;
+	background-color: lightpink ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.toy{
+	margin: 20px;
+	padding: 20px;
+	background-color:lightpink;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.footer{
+	width: auto;
+	display:flex;
+	align-items: left;
+	background-color: silver;
+	color: rgb(105, 105, 105);
+}
+.title{
+	padding-left: 25px;
+}
+.about{	
+	display: inline-block;
+	padding: 5px 30px;
+}
+.contact{
+	display: inline-block;
+	padding: 10px 30px;
+}
+.copyright{
+	display: inline-block;
+	padding: 130px 150px 10px 150px;
+}
